@@ -1,0 +1,21 @@
+# Project: ZISWeb (Manual Input)
+- **Goal:** A simple Zakat, Infaq, Shodaqoh recording app.
+- **Stack:** Next.js (App Router), Supabase (Auth & DB), TailwindCSS, Lucide Icons.
+- **Roles:**
+  - `Public`: Can see generic landing page, zakat calculator, and muzakki can see transaction status by name.
+  - `SuperAdmin`: Oversee all activities and manage data.
+  - `Operator`: Can login and manually input transactions.
+- **Key Entities:**
+  - `Muzakki` (Donor) 
+  - `Operator`
+  - `TransactionType` (Zakat Fitrah(Uang/Beras), Zakat Maal, Infaq, Shodaqoh, Fidyah(Uang/Beras), Wakaf, Hibah)
+- **Key Features**
+  - Transaction input
+  - Muzakki database
+  - Transaction reports
+  - transaction invoice printout to mini printer
+  - zakat calculator
+  - Additional Feature: Takjil registration, acceptable categiries: money, food, or others
+- **Language:** English for code, Bahasa Indonesia for UI labels.
+- **Constraint:** NO Payment Gateway. All transactions are "Manual Entry" (cash/transfer verified manually).
+- **Style:** Clean, white, trustworthy (Green/Gold accents). Use 'shadcn/ui' components.
